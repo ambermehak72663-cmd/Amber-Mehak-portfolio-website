@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amber Mehak - Portfolio</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #131b2a;
+      --text: #eaeff5;
+      --muted: #9ba3b4;
+      --accent: #00b4d8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: var(--card);
+      padding: 40px 15px 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      color: var(--accent);
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 8px;
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: var(--card);
+      margin-bottom: 25px;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+      font-size: 20px;
+      color: var(--accent);
+      margin-top: 0;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    li {
+      margin: 6px 0;
+      padding-left: 10px;
+      position: relative;
+    }
+
+    li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid #1c2535;
+      background: #0d1422;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 26px; }
+      section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amber Mehak</h1>
+    <p>Web Developer • Designer • Creative Thinker</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm <strong>Amber Mehak</strong>, a passionate and detail-oriented web developer who enjoys
+        creating elegant and functional websites. My goal is to write clean, responsive,
+        and accessible code that brings ideas to life on the web.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Responsive Design</li>
+        <li>JavaScript Basics</li>
+        <li>UI/UX Principles</li>
+        <li>Git & GitHub</li>
+        <li>Creative Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        Some of the projects I’ve worked on include:
+      </p>
+      <ul>
+        <li>Personal Portfolio Website</li>
+        <li>Business Landing Page</li>
+        <li>Online Resume Template</li>
+        <li>Minimal Blog Layout</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        I’d love to collaborate or discuss new ideas. You can reach me through:
+      </p>
+      <p>
+        📧 <a href="mailto:ambermehak72663@gmail.com">ambermehak72663@gmail.com</a><br>
+        🌐 <a href="https://github.com/ambermehak72663" target="_blank">github.com/ambermehak72663</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Amber Mehak — All Rights Reserved
+  </footer>
+</body>
+</html>
